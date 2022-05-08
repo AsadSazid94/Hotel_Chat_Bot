@@ -1,0 +1,120 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hey","Hi there", "How are you", "Is anyone there?","Hey", "Hello", "Good day", "Hi"],
+     "responses": ["Hi ", " yes, how can I help", " watsupp"]
+    },
+
+    {"tag": "saludo",
+     "patterns": [ "hola", "Cómo estás","Hola", "¿Hay alguien ahí?","Oye", "Buenos días", "Ekse"],
+     "responses": ["Hola ", " si", "como puedo ayudar"]
+    },
+
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye"]
+    },
+
+    {"tag": "adiós",
+     "patterns": ["Adiós", "Te veo luego", "OK, Adios","¡Nos vemos!", "Que tenga un lindo día", ",claro adiós"],
+     "responses": ["¡Nos vemos!", "Que tenga un lindo día", ",claro adiós"]
+    },
+
+    {"tag": "Gracias",
+     "patterns": ["Gracias", "eso es util", "Genial gracias", "Gracias por ayudarme"],
+     "responses": ["Encantada de ayudar!", "¡Cualquier momento!", "Mi placer", "de nada"]
+    },
+    {"tag": "noanswer",
+     "patterns": ["QWERTYUIOPLKJHGFDSAZXCVBNM,./'][=-09876543"],
+     "responses": ["Sorry, can't understand you, connecting you to live Agent.........."]
+     },
+
+    {"tag": "name",
+      "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+      "responses": ["I am Jarvis", "My name is Jarvis"]
+      },
+
+     {"tag": "nombre",
+      "patterns": ["Cuál es tu nombre", "¿usted está?", "Dime tu nombre", "Quién es usted", "Cuéntame sobre ti"],
+      "responses": ["yo soy jarvis", "mi nombre es jarvis"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can give you information about our Hotel", "I can give help with our hotel booking"]
+      },
+
+     {"tag": "opciones",
+       "patterns": ["¿a qué te dedicas?", "Como puedes ayudar", "que sabes", "Cual es tu propósito"],
+       "responses": ["Puedo darte información sobre nuestro Hotel.", "\nPuedo ayudar con nuestra reserva de hotel."]
+      },
+
+    {"tag": "room",
+      "patterns": ["What's the difference between a Double room and a Twin room?", "What is Double room" , "What is Twin room"],
+      "responses": ["A double room has one double bed. A twin room has two single beds."]
+     },
+
+     {"tag": "habitación",
+      "patterns": ["¿Cuál es la diferencia entre una habitación Doble y una habitación Twin?", "¿Qué es la habitación doble?" , "¿Qué es la habitación doble?"],
+      "responses": ["Una habitación doble tiene una cama doble. Una habitación doble tiene dos camas individuales."]
+     },
+
+     {"tag": "extra beds",
+      "patterns": ["We have two small children; can we get extra beds in the room?"],
+      "responses": ["In general one extra bed for one child is available at a minor additional charge. However, please note that this possibility depends on each hotel’s policy and availability. We advise you to check the overview page of the hotel, or to send an email to customerservice@bookings.net."]
+     },
+
+    {"tag": "camas supletorias",
+     "patterns": ["Tenemos dos niños pequeños; ¿Podemos poner camas supletorias en la habitación?"],
+     "responses": ["En general, una cama supletoria para un niño está disponible por un cargo adicional menor. Sin embargo, tenga en cuenta que esta posibilidad depende de la política y disponibilidad de cada hotel. Le recomendamos que consulte la página de descripción general del hotel o que envíe un correo electrónico a customerservice@bookings.net."]
+    },
+
+    {"tag": "q3",
+     "patterns": ["Can I generally request an extra bed for a third person in a double room and at what costs?"],
+     "responses": ["It will depend on each hotel’s policy and availability. Once you have retrieved the availability for a specific hotel for the requested dates, by clicking on the room name, you will access the room description. If the possibility and the costs of an extra bed in the room are not specified in the room description, please send an e-mail to customerservice@bookings.net."]
+     },
+
+    {"tag": "q31",
+     "patterns": ["En general, ¿puedo solicitar una cama supletoria para una tercera persona en una habitación doble y a qué costo?"],
+     "responses": ["Dependerá de la política y disponibilidad de cada hotel. Una vez que haya recuperado la disponibilidad de un hotel específico para las fechas solicitadas, al hacer clic en el nombre de la habitación, accederá a la descripción de la habitación. Si la posibilidad y los costes de una cama supletoria en la habitación no se especifican en la descripción de la habitación, envíe un correo electrónico a customerservice@bookings.net."]
+     },
+
+    {"tag": "q4",
+     "patterns": ["Are the rates on your website per person or per room?"],
+     "responses": ["All rates on the website are per room per stay, unless stated differently."]
+    },
+
+    {"tag": "q41",
+     "patterns": ["¿Las tarifas en su sitio web son por persona o por habitación?"],
+     "responses": ["Todas las tarifas en el sitio web son por habitación por estadía, a menos que se indique lo contrario."]
+    },
+
+    {"tag": "q5",
+     "patterns": ["Do I pay a reservation fee?"],
+     "responses": ["No, we will not charge you a reservation fee."]
+    },
+
+    {"tag": "q51",
+     "patterns": ["¿Pago una tarifa de reserva?"],
+     "responses": ["No, no le cobraremos una tarifa de reserva."]
+    },
+
+    {"tag": "q6",
+     "patterns": ["Is breakfast included in the price?"],
+     "responses": ["Once you have retrieved the availability for a specific hotel for the requested dates, by clicking on the room name, you will find information about breakfast, taxes and room facilities."]
+    },
+
+    {"tag": "q61",
+     "patterns": ["¿El desayuno está incluido en el precio?"],
+     "responses": ["Una vez que haya recuperado la disponibilidad de un hotel específico para las fechas solicitadas, al hacer clic en el nombre de la habitación, encontrará información sobre el desayuno, los impuestos y las instalaciones de la habitación."]
+    },
+
+    {"tag": "1",
+     "patterns": ["1"],
+     "responses": ["You have selected English"]
+    },
+    {"tag": "2",
+     "patterns": ["2"],
+     "responses": ["Has seleccionado española"]
+    }
+  ]
+}
